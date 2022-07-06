@@ -63,7 +63,8 @@ Ik heb de NPM package express comporessine geinstaleerd om de CSS te minifyen.
   type="image/jpeg"
 />
   <img src="fallback-image.jpg" alt="Photo" width="450" height="350">
-</picture>```
+</picture>
+```
 
 ## 👉 Kenmerken
 
