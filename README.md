@@ -1,25 +1,28 @@
 # 🚧 Performance optimalisatie Coding the Curbs
-
-First Concept of the data-driven GitHub issue extention/component on the FDND Website.
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
-![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-12-Proof-of-Concept/blob/main/docs/afb/Avatars-03.jpg)
-![form](https://github.com/M4TThys123/SPRINT-12-Proof-of-Concept/blob/main/docs/afb/form.png)
+![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/Schermafbeelding%202022-07-06%20om%2014.35.59.png)
 
 ## Beschrijving
 Deze website is serverside gemaakt via NPM en is gedeployd via Heroku. Om deze website te verbeteren ben ik daarom ook begonnen om deze serverside te optimaliseren. Vervolgens ben ik clientside aan de gang gegaan. De serverside optimalisatie vind je hier 
-[Screenshot Prototype]()
+[Severside Optimalisatie]()
 
- 
-## 🚀 Screenshots
-![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/Schermafbeelding%202022-07-06%20om%2014.35.59.png)
-
-###Lighthouse test voor optimalisatie
+###🚀 Lighthouse test voor optimalisatie
 ![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/before.png)
 
 ###Lighthouse test na optimalisatie
 ![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/coding-max.png)
 
+##Optimalisatie
+###Minifying
+Ik heb de NPM package PostCSS geinstaleerd om de CSS te minifyen.
 
+###Code splitting
+Ik heb gebruik gemaakt van een simpele express server en er lade geen overige pagina's. Daarom was code splitting n.v.t.
+
+###Compressie
+Ik heb de NPM package express comporessine geinstaleerd om de CSS te minifyen.
+
+
+###Afbeeldingen
 
 ## 👉 Kenmerken
 
@@ -38,24 +41,9 @@ Deze website is serverside gemaakt via NPM en is gedeployd via Heroku. Om deze w
  * [🖥️ Cssnano](https://www.npmjs.com/package/cssnano)
  * [💤 Postcss](https://www.npmjs.com/package/postcss)
 
-
-## 🪢 Installatie & Gebruik
-```
-# Cloning the repository
-git clone https://github.com/M4TThys123/SPRINT-11-Realtime-Web-App.git
-
-# Moving to the folder
-cd SPRINT-11-Realtime-Web-App
-
-# Install NPM Dependencies
-npm install
-
-# Install NPM packages
-npm run start
-```
-
 ## 🌐 Bronnen
-* [Bron 1]()
+* [Lazy Loading](https://web.dev/browser-level-image-lazy-loading/)
+* [Lazy Loading](https://web.dev/browser-level-image-lazy-loading/)
 
 ## 🔒 Licentie
 
