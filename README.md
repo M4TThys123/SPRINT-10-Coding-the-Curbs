@@ -4,10 +4,10 @@
 ## Beschrijving
 Deze website is serverside gemaakt via NPM en is gedeployd via Heroku. Om deze website te verbeteren ben ik daarom ook begonnen om deze serverside te optimaliseren. Vervolgens ben ik clientside aan de gang gegaan.
 
-###🚀 Lighthouse test voor optimalisatie
+## 🚀 Lighthouse test voor optimalisatie
 ![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/before.png)
 
-###Lighthouse test na optimalisatie
+##Lighthouse test na optimalisatie
 ![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/coding-max.png)
 
 ##Optimalisatie
@@ -20,7 +20,50 @@ Ik heb gebruik gemaakt van een simpele express server en er lade geen overige pa
 ###Compressie
 Ik heb de NPM package express comporessine geinstaleerd om de CSS te minifyen.
 
-###Afbeeldingen
+## Afbeeldingen
+
+### Lazy loading
+```HTML
+<img loading="lazy" src="./afb1" alt="afb1_placeholer">
+```
+### Lazy loading
+```HTML
+<picture>
+  <source srcset="image.avif" type="image/avif">
+  <source srcset="image.webp" type="image/webp">
+  <img src="image.jpg" alt="Photo" width="450" height="350">
+</picture>
+
+<picture>
+<source
+  sizes="(max-width: 608px) 100vw, 608px"
+  srcset="
+    /img/Z1s3TKV-1920w.avif 1920w,
+    /img/Z1s3TKV-1280w.avif 1280w,
+    /img/Z1s3TKV-640w.avif   640w,
+    /img/Z1s3TKV-320w.avif   320w"
+  type="image/avif"
+/>
+<source
+  sizes="(max-width: 608px) 100vw, 608px"
+  srcset="
+    /img/Z1s3TKV-1920w.webp 1920w,
+    /img/Z1s3TKV-1280w.webp 1280w,
+    /img/Z1s3TKV-640w.webp   640w,
+    /img/Z1s3TKV-320w.webp   320w"
+  type="image/webp"
+/>
+<source
+  sizes="(max-width: 608px) 100vw, 608px"
+  srcset="
+    /img/Z1s3TKV-1920w.jpg 1920w,
+    /img/Z1s3TKV-1280w.jpg 1280w,
+    /img/Z1s3TKV-640w.jpg   640w,
+    /img/Z1s3TKV-320w.jpg   320w"
+  type="image/jpeg"
+/>
+  <img src="fallback-image.jpg" alt="Photo" width="450" height="350">
+</picture>```
 
 ## 👉 Kenmerken
 
