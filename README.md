@@ -1,32 +1,63 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
+# 🚧 Performance optimalisatie Coding the Curbs
 
-# Titel
+First Concept of the data-driven GitHub issue extention/component on the FDND Website.
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
-
-## Inhoudsopgave
-
-  * [Beschrijving](#beschrijving)
-  * [Kenmerken](#kenmerken)
-  * [Installatie](#installatie)
-  * [Gebruik](#gebruik)
-  * [Bronnen](#bronnen)
-  * [Licentie](#licentie)
+![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-12-Proof-of-Concept/blob/main/docs/afb/Avatars-03.jpg)
+![form](https://github.com/M4TThys123/SPRINT-12-Proof-of-Concept/blob/main/docs/afb/form.png)
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-<!-- Voeg een mooie poster visual toe 📸 -->
-<!-- Voeg een link toe naar Github Pages 🌐-->
+Deze website is serverside gemaakt via NPM en is gedeployd via Heroku. Om deze website te verbeteren ben ik daarom ook begonnen om deze serverside te optimaliseren. Vervolgens ben ik clientside aan de gang gegaan. De serverside optimalisatie vind je hier 
+[Screenshot Prototype]()
 
-## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+ 
+## 🚀 Screenshots
+![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/Schermafbeelding%202022-07-06%20om%2014.35.59.png)
 
-## Installatie
+###Lighthouse test voor optimalisatie
+![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/before.png)
 
-## Gebruik
+###Lighthouse test na optimalisatie
+![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/coding-max.png)
 
-## Bronnen
 
-## Licentie
+
+## 👉 Kenmerken
+
+### 💻 Client-Side
+  * 🧭 HTML
+  * 🏦 CSS
+  * 🏥 JavaScript
+  
+### 💾 Server-Side
+ * [🏛️ Node.js](https://nodejs.dev/)
+ * [🚣 Express](https://www.npmjs.com/package/express)
+
+### ‼️ Dependencies
+ * [🏡 Ejs](https://www.npmjs.com/package/ejs)
+ * [📹 Compression](https://www.npmjs.com/package/compression)
+ * [🖥️ Cssnano](https://www.npmjs.com/package/cssnano)
+ * [💤 Postcss](https://www.npmjs.com/package/postcss)
+
+
+## 🪢 Installatie & Gebruik
+```
+# Cloning the repository
+git clone https://github.com/M4TThys123/SPRINT-11-Realtime-Web-App.git
+
+# Moving to the folder
+cd SPRINT-11-Realtime-Web-App
+
+# Install NPM Dependencies
+npm install
+
+# Install NPM packages
+npm run start
+```
+
+## 🌐 Bronnen
+* [Bron 1]()
+
+## 🔒 Licentie
 
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 
