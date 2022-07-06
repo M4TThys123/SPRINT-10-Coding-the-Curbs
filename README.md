@@ -2,8 +2,7 @@
 ![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/Schermafbeelding%202022-07-06%20om%2014.35.59.png)
 
 ## Beschrijving
-Deze website is serverside gemaakt via NPM en is gedeployd via Heroku. Om deze website te verbeteren ben ik daarom ook begonnen om deze serverside te optimaliseren. Vervolgens ben ik clientside aan de gang gegaan. De serverside optimalisatie vind je hier 
-[Severside Optimalisatie]()
+Deze website is serverside gemaakt via NPM en is gedeployd via Heroku. Om deze website te verbeteren ben ik daarom ook begonnen om deze serverside te optimaliseren. Vervolgens ben ik clientside aan de gang gegaan.
 
 ###🚀 Lighthouse test voor optimalisatie
 ![Screenshot Prototype](https://github.com/M4TThys123/SPRINT-10-Coding-the-Curbs/blob/main/assets/before.png)
@@ -20,7 +19,6 @@ Ik heb gebruik gemaakt van een simpele express server en er lade geen overige pa
 
 ###Compressie
 Ik heb de NPM package express comporessine geinstaleerd om de CSS te minifyen.
-
 
 ###Afbeeldingen
 
